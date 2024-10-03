@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>5-dars ikkichilar bilan boshladik</h1>
+    <h2>Ma'lumotlaringizni kiriting</h2>
+
+    <!-- "form" elementi shu joydan boshlanadi-->
+    <form action="./text.html" method="post">
+        <!-- "action" attributi formdagi ma'lumotlarni qayerga yuborish kerakligini ko'rsatadi.-->
+        <!-- "method" attributi formdagi ma'lumotlarni qanday yuborish kerakligini bildiradi.-->
+
+        <!-- har bir "input ya'ni kiritish" elementi "label" elementi bilan birga kelishiga majbut -->
+        <label for="ism">Ismingizni kiriting:</label>
+        <!-- "for" attributi shu elementni "input" element bilan "id" attributi orqali bog'laydi -->
+        <input type="text" name="ism" id="ism" required>
+        <!-- "type" attributi kiritilgan ma'lumotlarni turini belgilaydi -->
+        <!-- "name" attributi shu element nomini belgilaydi -->
+        <!-- "id" attributi shu kiritish maydonini unikal identifikatorini belgilaydi -->
+        <!-- "required" attributi formani yuborishdanavval, kiritish maydoni to'ldirilishi kerakligini talab qiladi. -->
+        <br>
+        <label for="email">Emailingizni kiriting:</label>
+        <input type="email" name="email" id="email">
+        <!-- type="email" qiymati kiritish uchun ishlatiladi -->
+        br  
+        <label for="xabar">Xabar qoldirish:</label>
+        <!-- "textarea" elementi asosan matn kiritish uchun sihlatiladi -->
+        <textarea name="xabar" id="cabar" cols="30" rows="10"></textarea>
+        <!-- "cols" attributi kiritish maydonini nechta ustunligini bildiradi -->
+        <!-- "rows" attributi kiritish maydonini nechta  qatori borligini ifodalaydi -->
+        <br>
+        <input type="submit" value="Yuborish">
+        <!-- type="submit" tugmasi bosilganida forma yuboriladi -->
+        <!-- "value" qiymati tugmani ichidagi bizga ko'rinadigan tekstni bildiradi -->
+    </form>
+    <!-- shu joyidan html forma yakunlandi. -->
+</body>
+</html>

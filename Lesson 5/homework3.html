@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>eMaktab|eMaktab ga kirish</title>
+
+    <style>
+        .h{
+            width: 400px;
+            margin: 50px;
+            margin-left: 100px;
+            padding: 20px;
+            color: white;
+            background-color:mediumblue;
+            border-radius: 4px;
+        }
+        body{
+            font-family: 'Arial', sans-serif;
+            background-color:whitesmoke;
+            margin: 0;
+            padding: 10px;
+        }
+        .kirish{
+            width: 400px;
+            margin: 50px;
+            margin-left: 100px;
+            padding: 20px;
+            color: black;
+            background-color:white;
+            border-radius: 4px;
+        }
+        
+        form{
+            display: flex;
+            flex-direction: column;
+        }
+
+        .form{
+            margin-bottom: 20px;
+        }
+
+        input{
+            padding: 10px;
+            font-size: 16px;
+            color: whitesmoke;
+            border: 1px solid #57b6ff;
+            border-radius:6px;
+        }
+
+        label{
+            font-weight: bolder;
+            margin-bottom: 8px;
+            display: block;
+        }
+
+        button{
+            cursor: pointer;
+            color: ghostwhite;
+            border: 1px solid #57b6ff;
+            padding: 10px;
+            font-size: 16px;
+            border-radius:6px;
+            background-color: greenyellow;
+        }
+
+        button:hover{
+            background-color: green;
+        }
+    </style>
+</head>
+<body>
+<center>
+    <div class="h">
+        <h1>Kirish eMaktab</h1>
+        <!-- "h" attributi sarlavha yozishda ishlatiladi -->
+        <a href="https://emaktab.uz/ad/promo/oo-uz">Tizimda ro‘yxatdan o‘tmaganmisiz?</a>
+        <!-- "a" tegi orqali biz biror bir saytning havolasi orqali o'sha saytga o'tishimiz mumkin -->
+
+    </div>
+    <div class="kirish">
+        <form action="./Kirish" method="post"></form>
+        <!-- "form" elementi ma'lumotlarni yig'ish va murojaat qilish uchun ishlatiladi -->
+        <!-- "action" attributi formdagi ma'lumotlarni qayerga yuborish kerakligini ko'rsatadi.-->
+        <!-- "method" attributi formdagi ma'lumotlarni qanday yuborish kerakligini bildiradi.-->
+        <div class="form">
+            <label for="login">Login</label>
+            <!-- har bir "input" typi "label" bilan birga kelishi kerak  -->
+            <!-- undagi "for" attributi shu elemntni "input" elementidagi "id" attributi bilan bo'glaydi-->
+            <input type="text" name="login" id="login">
+            <!-- "input" tagi bizga "input" qilish ya'ni ma'lumot kiritishimiz uchun joy ochib beradi -->
+            <!-- "type" attributi kiritilgan ma'lumotlarni turini belgilaydi -->
+            <!-- "name" attributi shu element nomini belgilaydi -->
+            <!-- "id" attributi shu kiritish maydonini unikal identifikatorini belgilaydi -->
+            <!-- "required" attributi formani yuborishdanavval, kiritish maydoni to'ldirilishi kerakligini talab qiladi. -->
+        </div>
+        <div class="form">
+            <label for="parol">Parol</label>
+            <input type="password" name="parol" id="parol">
+            <!-- type="password" parol kiritish uchun ishlatiladi -->
+        </div>
+        <div class="form">
+            <button>Tizimga kiring</button>
+            <!-- "button" bizga tugma yaratishimiz uchun kerak -->
+        </div>
+    </div>
+</center>
+</body>
+</html>

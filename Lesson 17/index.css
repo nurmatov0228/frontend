@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body{
+    background-color: #ffffff;
+}
+section{
+    text-align: center;
+    margin-top: 230px;
+}
+
+.from input{
+    margin-top: 10px;
+    padding: 10px;
+    width: 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: #fce4ff;
+}
+
+button{
+    margin-top: 5px;
+    padding: 5px;
+    width: 70px;
+    border-radius: 5px;
+    border: none;
+    margin: 2px;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+.green{
+    background-color: #cdffd3;
+    color: #00ce3e;
+}
+
+.green:hover{
+    background-color: #d2ffe0;
+    color: #00ff51;
+}
+
+.red{
+    background-color: #ffc0c0;
+    color: #bb0000;
+}
+
+.red:hover{
+    background-color: #ffd0d0;
+    color: #ff1616;
+}
+
+.blue{
+    background-color: #a7ccff;
+    color: #003bb9;
+}
+.blue:hover{
+    background-color: #c7ddfc;
+    color: #0655ff;
+}
+
+.Steps input{
+    margin:10px 15px 0 0;
+    padding: 8px;
+    width: 60px;
+    border: none;
+    background-color: #e6e6e6;
+    color: #585858;
+    border-radius: 5px;
+}

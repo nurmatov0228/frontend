@@ -1,0 +1,30 @@
+@keyframes box-mover{
+    0%{
+        left: 0;
+        background-color: red;
+        width: 200px;
+    }
+
+    100%{
+        left: 500px;
+        background-color: green;
+        width: 400px;
+    }
+}
+
+.box{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    background-color: red;
+    color: white;
+    animation-name: box-mover;
+    animation-duration: 4s;
+    animation-delay: 2s;
+    animation-iteration-count: 2;
+    animation-direction: alternate-reverse; /* bunga yana reverse (ya'ni teskari boshlanib to'g'ri tugaydigan), va normal (oddiy chapdan o'ngga o'tadigan) qo'ysak ham bo'ladi */
+    animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.box:hover{
+    animation-play-state:paused;
+}

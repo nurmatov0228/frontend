@@ -1,0 +1,76 @@
+.ptag p{
+    border-left: 6px solid red;
+    padding: 10px;
+    width: 250px;
+    background-color: #f3f3f3;
+}
+
+.ptag1 p{
+    padding: 2px;
+    width: 90%;
+    border-top: 8px groove red;
+    border-right: 5px dashed red;
+    border-bottom: 3px dotted red;
+    border-left: 2px solid red;
+}
+
+.p1{
+    padding: 8px;
+    width: 80%;
+    border: 2px solid red;
+    border-radius: 10px;
+}
+
+.p1:hover{
+    border: none;
+}
+
+.p2{
+    padding: 8px;
+    width: 80%;
+    border: 2px solid green;
+    border-radius: 10px;
+}
+
+.p2:hover{
+    border: none;
+}
+
+.p3{
+    padding: 8px;
+    width: 80%;
+    border: 2px solid blue;
+    border-radius: 10px;
+}
+
+.p3:hover{
+    border: none;
+}
+
+.ptag3{
+    padding: 20px;
+    width: 80px;
+    border: 7px solid rgb(0, 200, 203);
+    border-radius: 17px 0px;
+}
+
+.borders{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+h1{
+    padding: 100px 50px 100px 50px;
+}
+.s{
+    border: 8px solid rgb(20, 138, 255);
+}
+.d1{
+    border: 8px dashed red;
+}
+.d2{
+    border: 8px dotted green;
+}
+.d3{
+    border: 8px double yellow;
+}

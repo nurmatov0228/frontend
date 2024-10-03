@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    align-items: center;
+    background-color: black;
+    justify-content: center;
+}
+
+.ikkitalik{
+    width: auto;
+    height: auto;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin: 50px 0px 50px 550px;
+}
+
+.birinchisi{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    background: linear-gradient(to bottom, #FFF67E, #BFEA7C, #9BCF53, #416D19);
+    border-radius: 30%;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.rasm1{
+    margin: 5px 5px 5px 5px;
+    width: 190px;
+    height: 190px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30%;
+    background:url(https://www.shutterstock.com/image-vector/bnnbb-n-abstract-letters-logo-260nw-1820411084.jpg);
+    background-repeat: repeat-x;
+}
+
+.ikkinchisi{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    background: linear-gradient(to bottom right, #FF90C2, #ED5AB3, #1640D6, #001B79);
+    border-radius: 50%;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin: 150px 0px 50px 250px;
+}
+
+.rasm2{
+    position: absolute;
+    margin: 10px 0px 0px 10px;
+    width: 180px;
+    height: 180px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    overflow: hidden;
+    background:url(https://www.shutterstock.com/image-vector/bnnbb-n-abstract-letters-logo-260nw-1820411084.jpg);
+}
+
+.alohida{
+    margin: 50px 0px 0px 150px;
+    width: 200px;
+    height: 200px;
+    background: linear-gradient(to left bottom, #FFE569, #F79327, #DB005B, #B70404);
+    border-top-left-radius: 50%;
+    border-top-right-radius: 10%;
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 50%;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.rasm3{
+    position: relative;
+    margin: 15px 0px 0px 15px;
+    top: 15px;
+    width: 170px;
+    height: 170px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 10%;
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 50%;
+    background:url(https://www.shutterstock.com/image-vector/bnnbb-n-abstract-letters-logo-260nw-1820411084.jpg);
+    background-repeat: repeat-x;
+}

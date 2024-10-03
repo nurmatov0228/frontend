@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kirish qismi</title>
+
+    <style>
+        body{
+            font-family: 'Arial', sans-serif;
+            background-color: #C5FFF8;
+            margin: 0;
+            padding: 0;
+        }
+        .Kirish{
+            width: 400px;
+            margin: 50px, auto;
+            padding: 20px;
+            background-color: #96EFFF;
+            border-radius: 100px;
+            box-shadow: 0 0 1000px rgb(15, 33, 103);
+        }
+        
+        form{
+            display: flex;
+            flex-direction: column;
+        }
+
+        .form-group{
+            margin-bottom: 20px;
+        }
+
+        input, button{
+            padding: 10px;
+            font-size: 16px;
+            border: 1px solid #ffffff;
+            border-radius:40px;
+        }
+
+        label{
+            font-weight: bold;
+            margin-bottom: 8px;
+            display: block;
+        }
+
+        button{
+            cursor: pointer;
+            color: ghostwhite;
+            background-color: #7B66FF;
+        }
+
+        button:hover{
+            background-color: #0F2167;
+        }
+    </style>
+</head>
+<body>
+    <div class="Kirish">
+        <form action="#" method="post">
+            <h1>Xush kelibsiz</h1>
+            <h2>Ro'yxatdan o'tish uchun ma'lumotlaringizni to'ldiring:</h2>
+            <div class="form-group">
+                <label for="ism">Ismingiz:</label>
+                <input type="text" name="ism" id="ism" required>
+            </div>
+            <div class="form-group">
+                <label for="familiya">Familiyangiz:</label>
+                <input type="text" name="familiya" id="familiya" required>
+            </div>
+            <div class="form-group">
+                <label for="raqamingiz">Telefon raqamingiz:</label>
+                <input type="tel" name="raqamingiz" id="raqamingiz" required>
+            </div>
+            <div class="form-group">
+                <label for="emailingiz">Emailingiz:</label>
+                <input type="email" name="emailingiz" id="emailingiz" required>
+            </div>
+            <div class="form-group">
+                <label for="parol">Parolingiz:</label>
+                <input type="password" name="parol" id="parol" required>
+            </div>
+            <div class="form-group">
+                <button class="Submit">Ro'yxatdan O'tish</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

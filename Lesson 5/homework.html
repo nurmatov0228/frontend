@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up</title>
+
+    <style>
+        body{
+            font-family: 'Arial', sans-serif;
+            background-color: white;
+            margin: 0;
+            padding: 10px;
+        }
+        .signup{
+            width: 350px;
+            margin: 50px;
+            margin-left: 100px;
+            padding: 20px;
+            background-color:white;
+            border-radius: 10px;
+            box-shadow: 0 0 5px rgb(0, 0, 0);
+        }
+        
+        form{
+            display: flex;
+            flex-direction: column;
+        }
+
+        .form{
+            margin-bottom: 20px;
+        }
+
+        input, button{
+            padding: 10px;
+            font-size: 16px;
+            border: 1px solid #dfdfdf;
+            border-radius:10px;
+        }
+
+        label{
+            font-weight: bolder;
+            margin-bottom: 8px;
+            display: block;
+        }
+
+        button{
+            cursor: pointer;
+            color:#fcfcfc;
+            background-color:lime;
+        }
+
+        button:hover{
+            color: beige;
+            background-color:limegreen;
+        }
+    </style>
+</head>
+<body>
+    <center>
+        <div class="signup">
+            <!-- "div" tagi yordamida elementarni bir guruhga jamlab olinadi -->
+            <!-- "class" elementi shu "class" ga berilgan nom roqali css yoki javascriptlarga murojaat qilinadi-->
+            <form action="./Sign up" method="post">
+                <!-- "form" elementi ma'lumotlarni yig'ish va murojaat qilish uchun ishlatiladi -->
+                <!-- "action" attributi formdagi ma'lumotlarni qayerga yuborish kerakligini bildiradi -->
+                <!-- "method" attributi formdagi ma'lumotlarni qay tartibda yuborish kerakligini bildiradi -->
+                <h1 style="color:royalblue;">fake facebook</h1>
+                <!-- "h1" tagi sarlavha ma'lumotni sarlavha sifatida chiqishini ta'minlaydi -->
+                <!-- undagi "style" uni ko'rinishini ya'ni rangini, shriftini, qalinligiyu uzunligigach o;zgartirish imkonini yaratadi  -->
+                <!-- "style"ni ichidagi "color" attributi uni rangini o'zgartirish uchun kerak bo'ladi -->
+                <h3>create a new account</h3>
+                <div class="form">
+                    <!-- bu yerda "form" nomli yangi guruh ochildi  -->
+                    <label for="name">First name:</label>
+                    <!-- har bir "input" typi "label" bilan birga kelishi kerak  -->
+                    <!-- undagi "for" attributi shu elemntni "input" elementidagi "id" attributi bilan bo'glaydi-->
+                    <input type="text" name="name" id="name" required>
+                    <!-- "input" tagi bizga "input" qilish ya'ni ma'lumot kiritishimiz uchun joy ochib beradi -->
+                    <!-- "type" attributi kiritilgan ma'lumotlarni turini belgilaydi -->
+                    <!-- "name" attributi shu element nomini belgilaydi -->
+                    <!-- "id" attributi shu kiritish maydonini unikal identifikatorini belgilaydi -->
+                    <!-- "required" attributi formani yuborishdanavval, kiritish maydoni to'ldirilishi kerakligini talab qiladi. -->
+                </div>
+                <div class="form">
+                    <label for="surname">Last name:</label>
+                    <input type="text" name="surname" id="surname" required>
+                </div>
+                <div class="form">
+                    <label for="mobile">Mobile number:</label>
+                    <input type="number" name="mobile" id="mobile" required>
+                    <!-- type="number" raqam kiritish uchun ishlatiladi -->
+                </div>
+                <div class="form">
+                    <label for="birthday">Birthday:</label>
+                    <input type="date" name="birthday" id="birthday" required>
+                    <!-- type="date" sana kiritish uchun kerak bo'ladi -->
+                </div>
+
+                <div class="form">
+                    <button class="submit">Sign Up</button>
+                    <!-- "button" bizga tugma yaratishimiz uchun kerak -->
+                </div>
+            </form>
+        </div>
+    </center>
+</body>
+</html>

@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, "roboto", Sans-serif;
+}
+
+.jadval {
+  margin: 50px auto;
+  max-width: 100%;
+  width: 98%;
+  border-radius: 5px;
+  padding: 20px;
+  background-color: #f1f1f1;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.7);
+}
+
+button {
+  border: none;
+  width: 95%;
+  padding: 10px;
+  border: 2px solid #bdbdbd;
+  border-radius: 5px;
+  margin: 5px;
+  text-align: center;
+  background-color: white;
+  z-index: 99;
+}
+button:hover {
+  transition: all 0.2s ease-in;
+  cursor: pointer;
+  border: 2px solid #f1f1f1;
+  background-color: #bdbdbd;
+}
+
+tbody {
+  text-align: center;
+}
+.qoshish,
+.ayirish,
+.kopaytirish,
+.bolish {
+  background-color: rgb(255, 219, 75);
+  color: white;
+}
+
+.qoshish:hover {
+  background-color: rgb(251, 255, 0);
+}
+.ayirish:hover {
+  background-color: rgb(251, 255, 0);
+}
+.kopaytirish:hover {
+  background-color: rgb(251, 255, 0);
+}
+.bolish:hover {
+  background-color: rgb(251, 255, 0);
+}

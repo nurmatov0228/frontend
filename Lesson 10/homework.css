@@ -1,0 +1,50 @@
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    background-color: #f2f2f2;
+}
+
+footer{
+    width: 100%;
+    align-items: end, auto;
+    margin-top: 165px;
+    text-align: center auto;
+    padding: 0;
+}
+
+.form{
+    width: 100% auto;
+    padding: 20px;
+    background-color: black;
+    color: white;
+    text-align: left;
+    padding: 3px 0px 37px 14%;
+}
+.from{
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    color: #f2f2f2;
+    background-color: #222;
+    bottom: 0;
+    position: fixed;
+}
+
+th, td{
+    width: 25%;
+}
+
+h2{
+    text-align: left;
+    padding: 12px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    text-decoration: underline rgb(163, 1, 1);
+}

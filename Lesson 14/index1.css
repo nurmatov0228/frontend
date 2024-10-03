@@ -1,0 +1,20 @@
+.borders{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+div{
+    padding: 100px 50px 100px 50px;
+}
+.s{
+    border: 8px solid blue;
+}
+.d1{
+    border: 8px dashed red;
+}
+.d2{
+    border: 8px dotted green;
+}
+.d3{
+    border: 8px double yellow;
+}

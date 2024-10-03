@@ -1,0 +1,26 @@
+.card {
+    width: 300px;
+    height: 500px;
+    border: 1px solid black;
+}
+
+.card__img {
+    width: 50%;
+}
+
+.card__title {
+    text-align: center;
+    font-size: 30px;
+    color: red;
+}
+
+  
+.card__text {
+    text-decoration: line-through;
+}
+
+.card__btn {
+    width: 120px;
+    height: 30px;
+    border-radius: 8px;
+}  

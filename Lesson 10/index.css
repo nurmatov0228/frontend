@@ -1,0 +1,85 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f5f5f5;
+}
+
+.container{
+    width: 80%;
+    margin: 20px auto;
+}
+
+.chiroyli-form{
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+}
+
+.chiroyli-form h2{
+    text-align: center;
+    color: #555;
+}
+
+.chiroyli-form label{
+    display: block;
+    margin: 10px 0 5px;
+    color: #333;
+}
+
+.chiroyli-form input,
+.chiroyli-form textarea{
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border: 5px;
+    box-sizing: border-box;
+}
+
+.chiroyli-form button{
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    border-style: none;
+}
+
+.chiroyli-form button:hover{
+    background-color: #65b741;
+}
+
+.jadval{
+    margin-top: 20px;
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+}
+
+.jadval th, .jadval td{
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+.jadval th{
+    background-color: #4caf50;
+    color: #fff;
+}
+
+.jadval tbody tr:hover{
+    background-color: #e0e0e0;
+}
+
+.jadval tbody tr:nth-child(odd)
+{
+    background-color: bisque;
+}

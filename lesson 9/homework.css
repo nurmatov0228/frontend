@@ -1,0 +1,98 @@
+body{
+    font-family: 'Arial', sans-serif;
+    background-color: #ddd;
+    margin: 20%;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+h1{
+    text-align: center;
+}
+
+section{
+    margin-top: 150px;
+    width: 400px;
+    background-color: white;
+    width: 900px;
+    padding: 20px 20px 5px 20px;
+    border-radius: 10px;
+    box-shadow:0 0 8px rgb(94, 94, 94);
+    display: flex;
+    flex-direction: column;
+}
+
+input{
+    margin-bottom: 12px;
+    width: 800px;
+    text-align: center;
+    padding: 10px;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+textarea{
+    margin-bottom: 10px;
+    width: 820px;
+    text-align: center;
+    padding: 0px;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+button{
+    margin-bottom: 20px;
+    width: 65px;
+    text-align: left;
+    padding: 10px;
+    background-color:#9ADE7B;
+    cursor: pointer;
+    color: ghostwhite;
+    border-radius: 6px;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+button:hover{
+    background-color: #65B741;
+}
+
+table{
+    width: 942px;
+    margin-top: 10px;
+    border-collapse: collapse;
+}
+
+th{
+    padding: 10px;
+    width: 314px;
+    border: 1px solid #f2f2f2;
+    background-color: white;
+    text-align: left;
+}
+
+td{
+    padding: 10px;
+    width: 314px;
+    border: 1px solid #f2f2f2;
+    background-color: white;
+    text-align: left;
+}
+
+th{
+    background-color: #00d841;
+    color: white;
+}
+
+tr{
+    background-color: black;
+}
